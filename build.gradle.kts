@@ -28,7 +28,7 @@ subprojects {
                     entry("kotlin-reflect")
                     entry("kotlin-stdlib")
                 }
-                dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.9")
+                dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.9.1")
             }
         }
     }
