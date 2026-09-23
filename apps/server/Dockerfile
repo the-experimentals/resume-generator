@@ -11,7 +11,7 @@ RUN chmod +x gradlew
 # Build the application
 RUN ./gradlew build --no-daemon --stacktrace
 # Use a minimal JRE image for the final build
-FROM eclipse-temurin:21.0.7_6-jre-alpine
+FROM eclipse-temurin:21.0.12_8-jre-alpine
 # Set the working directory
 WORKDIR /app
 # Copy the built application from the build stage
